@@ -9,12 +9,12 @@ function radianToDegree(radian) {
         return "Please Provide a valid Number";
     }
   }
-  // Problem 1 ---> End <-----.
+  // Problem 1 ----End----.
   
   
   
   
-  //  Problem 2 
+  //  Problem 2 ----Start----.
   function isJavaScriptFile(filename) {
     if (typeof filename === "string") {
         const fileName = filename.split('.').pop();
@@ -26,10 +26,10 @@ function radianToDegree(radian) {
         return "Please Provide a valid FileName";
     }
   }
-  //  Problem 2 ----> End <----
+  //  Problem 2 ----End----
   
   
-  //  Problem 3 
+  //  Problem 3 ----Start----
   
   function oilPrice(diesel, petrol, octane) {
     const petrolPerLitre = 130;
@@ -46,11 +46,11 @@ function radianToDegree(radian) {
   }
   
   
-  //  Problem 3 ----> End <----
+  //  Problem 3 ----End----
   
   
   
-  //  Problem 4 
+  //  Problem 4 ----Start----
   function publicBusFare(numberOfPassengers) {
     let totalPassengers = Math.abs(numberOfPassengers);
     if (typeof totalPassengers === "number") {
@@ -70,11 +70,11 @@ function radianToDegree(radian) {
     
   }
   
-  //  Problem 4 ----> End <----
+  //  Problem 4 ----End----
   
   
   
-  //  Problem 5 
+  //  Problem 5 ----Start----
   function isBestFriend(firstObj, secondObj) {
         if (typeof firstObj === "object" && typeof secondObj === "object" ) {
             if (firstObj.name === secondObj.friend && firstObj.friend === secondObj.name) {
@@ -88,5 +88,5 @@ function radianToDegree(radian) {
     
   }
   
-  //  Problem 5 ----> End <----
+  //  Problem 5 ----End----
   
